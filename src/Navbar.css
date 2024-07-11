@@ -1,0 +1,45 @@
+.NavbarDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+.navbar{
+    width: 90%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-width: 20rem;
+}
+.navbar menu li{
+    text-decoration: none;
+    list-style: none; 
+    font-size: 1.2rem;
+    font-weight: 600;
+    justify-self: center;
+    gap: 1rem;
+}
+.navbar button{
+    width: 80px;
+    height: 35PX;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* media query  */
+@media(max-width:800px) {
+    .navbar menu li {
+        font-size: 1rem;
+    }
+}
